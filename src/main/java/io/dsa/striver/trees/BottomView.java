@@ -17,6 +17,9 @@ public class BottomView {
     }
 
     static void printBottomView(TreeNode node) {
+// level order traversal needs to be done 
+// we can print the bottom view by printing the
+// values of each key from (negative to positive) 
         Queue<Pair> q = new LinkedList<>();
         Map<Integer, Integer> map = new HashMap<>();
         q.offer(new Pair(node, 0));
