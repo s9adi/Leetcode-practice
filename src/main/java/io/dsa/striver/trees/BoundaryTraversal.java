@@ -13,7 +13,7 @@ public class BoundaryTraversal {
             else curr = curr.right;
         }
     }
-
+// we can add without using the temp list too 
     static void addRightBoundary(TreeNode root, ArrayList<Integer> res) {
         TreeNode curr = root.right;
         List<Integer> li = new ArrayList<>();
